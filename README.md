@@ -423,15 +423,15 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>Digital Horizon</h3>
+                    <h3>Rishabh Kumar Pandey</h3>
                     <p>Innovative solutions for the digital age.</p>
                 </div>
                 <div class="footer-column">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#showcase">Showcase</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#features">Research</a></li>
+                        <li><a href="#showcase">Publications</a></li>
+                        <li><a href="#testimonials">News</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -445,7 +445,7 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>© 2023 Digital Horizon. All rights reserved.</p>
+                <p>© 2025 Rishabh Kumar Pandey. All rights reserved.</p>
             </div>
         </div>
     </footer>
