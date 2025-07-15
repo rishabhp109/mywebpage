@@ -343,7 +343,7 @@
     <section class="features" id="features">
         <div class="container">
             <div class="section-title">
-                <h2>Powerful Features</h2>
+                <h2>Research</h2>
                 <p>Our platform offers everything you need to succeed in the digital landscape.</p>
             </div>
             <div class="feature-grid">
