@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -324,10 +324,10 @@
     <header>
         <div class="container">
             <nav>
-                <div class="logo">Digital Horizon</div>
+                <div class="logo">Rishabh Kumar Pandey</div>
                 <ul class="nav-links">
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#showcase">Showcase</a></li>
+                    <li><a href="#features">Research</a></li>
+                    <li><a href="#showcase">Publications</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact" class="btn">Contact</a></li>
                 </ul>
