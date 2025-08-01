@@ -221,9 +221,9 @@
                                     <i class="fas fa-graduation-cap text-blue-600"></i>
                                 </div>
                                 <div>
-                                    <h3 class="text-xl font-semibold">Ph.D. in [Field]</h3>
-                                    <p class="text-gray-600">[University Name]</p>
-                                    <p class="text-gray-500">201X - 202X</p>
+                                    <h3 class="text-xl font-semibold">Ph.D. in Theoretical Chemistry</h3>
+                                    <p class="text-gray-600">Indian Institute of Technology Patna</p>
+                                    <p class="text-gray-500">2019 - 2024</p>
                                     <p class="text-gray-700 mt-2">Thesis: "Title of PhD Dissertation"</p>
                                 </div>
                             </div>
@@ -237,9 +237,9 @@
                                     <i class="fas fa-graduation-cap text-blue-600"></i>
                                 </div>
                                 <div>
-                                    <h3 class="text-xl font-semibold">M.Sc. in [Field]</h3>
-                                    <p class="text-gray-600">[University Name]</p>
-                                    <p class="text-gray-500">201X - 201X</p>
+                                    <h3 class="text-xl font-semibold">M.Sc. in Chemistry</h3>
+                                    <p class="text-gray-600">Mahatma Gandhi PG College, Gorakhpur</p>
+                                    <p class="text-gray-500">2016 - 2018</p>
                                 </div>
                             </div>
                         </div>
@@ -252,9 +252,9 @@
                                     <i class="fas fa-graduation-cap text-blue-600"></i>
                                 </div>
                                 <div>
-                                    <h3 class="text-xl font-semibold">B.Sc. in [Field]</h3>
-                                    <p class="text-gray-600">[University Name]</p>
-                                    <p class="text-gray-500">201X - 201X</p>
+                                    <h3 class="text-xl font-semibold">B.Sc.</h3>
+                                    <p class="text-gray-600">Buddha Post Graduate College, Kushinagar</p>
+                                    <p class="text-gray-500">2012 - 2015</p>
                                 </div>
                             </div>
                         </div>
@@ -275,7 +275,7 @@
                             <i class="fas fa-envelope text-blue-600 mt-1 mr-4"></i>
                             <div>
                                 <p class="font-medium">Email</p>
-                                <p class="text-gray-600">rishabh.pandey@cuhk.edu.cn</p>
+                                <p class="text-gray-600">rishabh@cuhk.edu.cn</p>
                             </div>
                         </div>
                         <div class="flex items-start">
@@ -292,7 +292,7 @@
                             <i class="fas fa-phone-alt text-blue-600 mt-1 mr-4"></i>
                             <div>
                                 <p class="font-medium">Phone</p>
-                                <p class="text-gray-600">+86 XXX XXXX XXXX</p>
+                                <p class="text-gray-600">+86 132 6553 4517</p>
                             </div>
                         </div>
                     </div>
