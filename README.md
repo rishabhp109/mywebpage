@@ -35,7 +35,7 @@
         <div class="container mx-auto px-6 py-16">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 flex justify-center mb-8 md:mb-0">
-                    <div class="rounded-full border-4 border-white overflow-hidden w-48 h-48">
+                    <div class="rounded-full border-4 border-white overflow-hidden w-12 h-12">
                         <img src="https://drive.google.com/file/d/1WMO1C20yKXWWYvW9h-UC390eCGSvWA47/view?usp=sharing" alt="Portrait of Dr. Rishabh Kumar Pandey, a professional academic researcher with glasses" class="w-full h-full object-cover">
                     </div>
                 </div>
@@ -134,8 +134,8 @@
             <div class="section-divider"></div>
             <div class="space-y-6">
                 <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
-                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Publication Title 1</h3>
-                    <p class="text-gray-600 mb-2">Authors: Rishabh Kumar Pandey, Co-author 1, Co-author 2</p>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Self-assembled neutral and ionic [2 + 2] metallomacrocycles using a new flexible ditopic Pt (II)–based organometallic tecton bearing a pyrimidine motif: Facile syntheses and enhanced anticancer potency.</h3>
+                    <p class="text-gray-600 mb-2">Authors: Arnab Chakraborty, Rishabh Kumar Pandey, Co-author 1, Co-author 2</p>
                     <p class="text-gray-700 mb-3">Journal/Conference Name, Volume(Issue), Pages, Year</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
@@ -312,15 +312,12 @@
                             <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
                         </div>
                         <button type="submit" class="w-full px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Send Message</button>
-                    </form>
                 </div>
             </div>
-        </section>
-    </main>
 
     <!-- Footer Section -->
     <footer class="bg-gray-800 text-white py-6">
         <div class="container mx-auto text-center">
-            <p>&copy; 2023 Dr. Rishabh Kumar Pandey. All rights reserved.</p>
+            <p>&copy; 2025 Dr. Rishabh Kumar Pandey. All rights reserved.</p>
         </div>
     </footer>
