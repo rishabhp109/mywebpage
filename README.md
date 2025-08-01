@@ -1,507 +1,329 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rishabh Kumar Pandey</title>
+    <title>Dr. Rishabh Kumar Pandey | Post Doctoral Researcher</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        :root {
-            --primary-color: #3a86ff;
-            --secondary-color: #8338ec;
-            --accent-color: #ff006e;
-            --light-color: #f8f9fa;
-            --dark-color: #212529;
-            --success-color: #38b000;
-            --warning-color: #ffbb00;
-            --danger-color: #d00000;
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
         }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        .publication-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
         }
-
-        body {
-            background-color: var(--light-color);
-            color: var(--dark-color);
-            line-height: 1.6;
-        }
-
-        header {
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
-        }
-
-        .logo {
-            font-size: 1.8rem;
-            font-weight: 700;
-            letter-spacing: 1px;
-        }
-
-        .nav-links {
-            display: flex;
-            list-style: none;
-        }
-
-        .nav-links li {
-            margin-left: 2rem;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s ease;
-        }
-
-        .nav-links a:hover {
-            color: var(--accent-color);
-        }
-
-        .hero {
-            text-align: center;
-            padding: 4rem 0;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            background: linear-gradient(to right, var(--accent-color), var(--warning-color));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            max-width: 700px;
-            margin: 0 auto 2rem;
-        }
-
-        .btn {
-            display: inline-block;
-            background-color: var(--accent-color);
-            color: white;
-            padding: 0.8rem 1.8rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
-        }
-
-        .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .features {
-            padding: 5rem 0;
-            background-color: white;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .section-title h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .section-title p {
-            color: #6c757d;
-            max-width: 700px;
-            margin: 0 auto;
-        }
-
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .feature-card {
-            background-color: var(--light-color);
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            transition: transform 0.3s ease;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-10px);
-        }
-
-        .feature-icon {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
-            color: var(--primary-color);
-        }
-
-        .feature-card h3 {
-            margin-bottom: 1rem;
-        }
-
-        .showcase {
-            padding: 5rem 0;
-            background: linear-gradient(to right, #f8f9fa, #e9ecef);
-        }
-
-        .showcase-content {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .showcase-text {
-            flex: 1;
-            min-width: 300px;
-            padding-right: 2rem;
-        }
-
-        .showcase-image {
-            flex: 1;
-            min-width: 300px;
-        }
-
-        .showcase-image img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        .testimonials {
-            padding: 5rem 0;
-            background-color: white;
-        }
-
-        .testimonial-slider {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            gap: 2rem;
-            padding: 2rem 0;
-            scrollbar-width: none;
-        }
-
-        .testimonial-slider::-webkit-scrollbar {
-            display: none;
-        }
-
-        .testimonial-card {
-            min-width: 300px;
-            scroll-snap-align: start;
-            background-color: var(--light-color);
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-        }
-
-        .testimonial-card img {
+        .section-divider {
+            border-top: 2px solid #e5e7eb;
             width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 1.5rem;
+            margin: 1.5rem auto;
         }
-
-        .testimonial-text {
-            margin-bottom: 1.5rem;
-            font-style: italic;
-        }
-
-        .testimonial-author {
-            font-weight: 700;
-        }
-
-        .cta {
-            padding: 5rem 0;
-            text-align: center;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            color: white;
-        }
-
-        .cta h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        footer {
-            background-color: var(--dark-color);
-            color: white;
-            padding: 3rem 0;
-            text-align: center;
-        }
-
-        .footer-content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin-bottom: 2rem;
-        }
-
-        .footer-column {
-            flex: 1;
-            min-width: 250px;
-            margin-bottom: 2rem;
-        }
-
-        .footer-column h3 {
-            margin-bottom: 1.5rem;
-            font-size: 1.2rem;
-        }
-
-        .footer-column ul {
-            list-style: none;
-        }
-
-        .footer-column li {
-            margin-bottom: 0.8rem;
-        }
-
-        .footer-column a {
-            color: #adb5bd;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .footer-column a:hover {
-            color: var(--primary-color);
-        }
-
-        .copyright {
-            padding-top: 2rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            font-size: 0.9rem;
-            color: #adb5bd;
-        }
-
-        /* Responsive styles */
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-
-            .hero h1 {
-                font-size: 2.2rem;
-            }
-
-            .showcase-content {
-                flex-direction: column;
-            }
-
-            .showcase-text {
-                padding-right: 0;
-                margin-bottom: 2rem;
-            }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2px;
+            height: 100%;
+            background-color: #3b82f6;
         }
     </style>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">Rishabh Kumar Pandey</div>
-                <ul class="nav-links">
-                    <li><a href="#features">Research</a></li>
-                    <li><a href="#showcase">Publications</a></li>
-                    <li><a href="#testimonials">News</a></li>
-                    <li><a href="#contact" class="btn">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="hero">
-                <h1>Welcome to the official web page for Dr. Rishabh Kumar Pandey</h1>
-                <p>Discover innovative solutions designed to elevate your business and personal projects to new heights.</p>
-                <a href="#features" class="btn">Explore More</a>
+<body class="font-sans bg-gray-50">
+    <!-- Header Section -->
+    <header class="gradient-bg text-white">
+        <div class="container mx-auto px-6 py-16">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 flex justify-center mb-8 md:mb-0">
+                    <div class="rounded-full border-4 border-white overflow-hidden w-48 h-48">
+                        <img src="https://placehold.co/400x400" alt="Portrait of Dr. Rishabh Kumar Pandey, a professional academic researcher with glasses" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="md:w-2/3 md:pl-12 text-center md:text-left">
+                    <h1 class="text-4xl font-bold mb-2">Dr. Rishabh Kumar Pandey</h1>
+                    <h2 class="text-2xl font-semibold mb-4">Post Doctoral Researcher</h2>
+                    <p class="text-lg mb-4">School of Science and Engineering, CUHK Shenzhen</p>
+                    <div class="flex justify-center md:justify-start space-x-4">
+                        <a href="#" class="text-white hover:text-blue-200">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-blue-200">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-blue-200">
+                            <i class="fab fa-google-scholar fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-blue-200">
+                            <i class="fab fa-researchgate fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-blue-200">
+                            <i class="fas fa-file-pdf fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
 
-    <section class="features" id="features">
-        <div class="container">
-            <div class="section-title">
-                <h2>Research</h2>
-                <p>Our platform offers everything you need to succeed in the digital landscape.</p>
-            </div>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Lightning Fast</h3>
-                    <p>Optimized for performance with cutting-edge technology to deliver blazing fast results.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔒</div>
-                    <h3>Secure & Private</h3>
-                    <p>Enterprise-grade security protocols to keep your data safe and confidential.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔄</div>
-                    <h3>Seamless Integration</h3>
-                    <p>Compatible with all major platforms and services for smooth interoperability.</p>
-                </div>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-10">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-center space-x-8">
+                <a href="#about" class="text-gray-800 hover:text-blue-600 font-medium">About</a>
+                <a href="#research" class="text-gray-800 hover:text-blue-600 font-medium">Research</a>
+                <a href="#publications" class="text-gray-800 hover:text-blue-600 font-medium">Publications</a>
+                <a href="#education" class="text-gray-800 hover:text-blue-600 font-medium">Education</a>
+                <a href="#contact" class="text-gray-800 hover:text-blue-600 font-medium">Contact</a>
             </div>
         </div>
-    </section>
+    </nav>
 
-    <section class="showcase" id="showcase">
-        <div class="container">
-            <div class="showcase-content">
-                <div class="showcase-text">
-                    <h2>Intuitive Design</h2>
-                    <p>Our platform features a clean, user-friendly interface that simplifies complex tasks. With thoughtful UX design and smart workflows, you'll be more productive from day one.</p>
-                    <p>Customizable dashboards allow you to personalize your workspace to match your unique workflow preferences.</p>
-                    <a href="#" class="btn">Try Demo</a>
-                </div>
-                <div class="showcase-image">
-                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/62961ed9-e1b3-4332-9ea1-fb93b2a45b0f.png" alt="Modern dashboard interface showing analytics with colorful charts and graphs" />
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        <!-- About Section -->
+        <section id="about" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-6">About Me</h2>
+            <div class="section-divider"></div>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <p class="text-gray-700 mb-4">
+                        Dr. Rishabh Kumar Pandey is a Post Doctoral Researcher at The Chinese University of Hong Kong, Shenzhen (CUHK Shenzhen). His research focuses on [insert specific research areas]. With a strong background in [mention fields], he has contributed significantly to advancing knowledge in [specific domain].
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        Prior to joining CUHK Shenzhen, Dr. Pandey completed his PhD from [University Name] under the supervision of [Advisor Name]. His doctoral research explored [brief description of PhD work].
+                    </p>
+                    <p class="text-gray-700">
+                        Dr. Pandey has published numerous articles in top-tier journals and conferences including [list notable publications]. His work has been recognized with several awards including [mention awards].
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="testimonials" id="testimonials">
-        <div class="container">
-            <div class="section-title">
-                <h2>What People Say</h2>
-                <p>Don't just take our word for it - hear from our satisfied customers.</p>
+        <!-- Research Interests Section -->
+        <section id="research" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-6">Research Interests</h2>
+            <div class="section-divider"></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-atom fa-3x"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Research Area 1</h3>
+                    <p class="text-gray-600">Detailed description of this research area and its significance.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-chart-line fa-3x"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Research Area 2</h3>
+                    <p class="text-gray-600">Detailed description of this research area and its applications.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-microscope fa-3x"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Research Area 3</h3>
+                    <p class="text-gray-600">Detailed description of this research area and future directions.</p>
+                </div>
             </div>
-            <div class="testimonial-slider">
-                <div class="testimonial-card">
-                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d1403677-298a-4110-8e66-41aa3364ca7e.png" alt="Professional headshot of Sarah Johnson, Marketing Director" />
-                    <p class="testimonial-text">"Digital Horizon transformed our workflow efficiency. We've seen a 40% increase in productivity since implementation."</p>
-                    <p class="testimonial-author">Sarah Johnson</p>
-                    <p>Marketing Director, TechCorp</p>
-                </div>
-                <div class="testimonial-card">
-                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/79622ad0-99b4-4537-9fdd-cc195124cd01.png" alt="Portrait of Michael Chen, startup founder smiling confidently" />
-                    <p class="testimonial-text">"As a startup founder, I needed affordable but powerful tools. Digital Horizon delivered beyond my expectations."</p>
-                    <p class="testimonial-author">Michael Chen</p>
-                    <p>Founder, NextGen Apps</p>
-                </div>
-                <div class="testimonial-card">
-                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d1ffa495-af39-45c9-b286-595a633ffedc.png" alt="Lisa Rodriguez in business attire looking professional" />
-                    <p class="testimonial-text">"The customer support team is phenomenal. They helped us customize the platform for our specific industry needs."</p>
-                    <p class="testimonial-author">Lisa Rodriguez</p>
-                    <p>Operations Manager, RetailPro</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="cta" id="contact">
-        <div class="container">
-            <h2>Ready to Get Started?</h2>
-            <p>Join thousands of satisfied customers who are already benefiting from our platform.</p>
-            <a href="#" class="btn" style="background-color: white; color: var(--primary-color);">Sign Up Free</a>
-        </div>
-    </section>
+        <!-- Publications Section -->
+        <section id="publications" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-6">Selected Publications</h2>
+            <div class="section-divider"></div>
+            <div class="space-y-6">
+                <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Publication Title 1</h3>
+                    <p class="text-gray-600 mb-2">Authors: Rishabh Kumar Pandey, Co-author 1, Co-author 2</p>
+                    <p class="text-gray-700 mb-3">Journal/Conference Name, Volume(Issue), Pages, Year</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-file-pdf mr-1"></i> PDF
+                        </a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-link mr-1"></i> DOI
+                        </a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-book mr-1"></i> Cite
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Publication Title 2</h3>
+                    <p class="text-gray-600 mb-2">Authors: Rishabh Kumar Pandey, Co-author 1, Co-author 2</p>
+                    <p class="text-gray-700 mb-3">Journal/Conference Name, Volume(Issue), Pages, Year</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-file-pdf mr-1"></i> PDF
+                        </a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-link mr-1"></i> DOI
+                        </a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-book mr-1"></i> Cite
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Publication Title 3</h3>
+                    <p class="text-gray-600 mb-2">Authors: Rishabh Kumar Pandey, Co-author 1, Co-author 2</p>
+                    <p class="text-gray-700 mb-3">Journal/Conference Name, Volume(Issue), Pages, Year</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-file-pdf mr-1"></i> PDF
+                        </a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-link mr-1"></i> DOI
+                        </a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-book mr-1"></i> Cite
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="#" class="inline-block px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+                    View All Publications
+                </a>
+            </div>
+        </section>
 
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Rishabh Kumar Pandey</h3>
-                    <p>Innovative solutions for the digital age.</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#features">Research</a></li>
-                        <li><a href="#showcase">Publications</a></li>
-                        <li><a href="#testimonials">News</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Legal</h3>
-                    <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Cookie Policy</a></li>
-                    </ul>
+        <!-- Education & Experience Section -->
+        <section id="education" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-6">Education & Experience</h2>
+            <div class="section-divider"></div>
+            <div class="max-w-3xl mx-auto">
+                <div class="space-y-8 relative">
+                    <!-- Education Timeline -->
+                    <div class="timeline-item pl-8 relative">
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-graduation-cap text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold">Post Doctoral Researcher</h3>
+                                    <p class="text-gray-600">The Chinese University of Hong Kong, Shenzhen</p>
+                                    <p class="text-gray-500">202X - Present</p>
+                                    <p class="text-gray-700 mt-2">Working on [specific research project] under the supervision of [Prof. Name].</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item pl-8 relative">
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-graduation-cap text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold">Ph.D. in [Field]</h3>
+                                    <p class="text-gray-600">[University Name]</p>
+                                    <p class="text-gray-500">201X - 202X</p>
+                                    <p class="text-gray-700 mt-2">Thesis: "Title of PhD Dissertation"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item pl-8 relative">
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-graduation-cap text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold">M.Sc. in [Field]</h3>
+                                    <p class="text-gray-600">[University Name]</p>
+                                    <p class="text-gray-500">201X - 201X</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item pl-8 relative">
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-graduation-cap text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold">B.Sc. in [Field]</h3>
+                                    <p class="text-gray-600">[University Name]</p>
+                                    <p class="text-gray-500">201X - 201X</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="copyright">
-                <p>© 2025 Rishabh Kumar Pandey. All rights reserved.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-6">Contact</h2>
+            <div class="section-divider"></div>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-envelope text-blue-600 mt-1 mr-4"></i>
+                            <div>
+                                <p class="font-medium">Email</p>
+                                <p class="text-gray-600">rishabh.pandey@cuhk.edu.cn</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-building text-blue-600 mt-1 mr-4"></i>
+                            <div>
+                                <p class="font-medium">Address</p>
+                                <p class="text-gray-600">School of Science and Engineering<br>
+                                The Chinese University of Hong Kong, Shenzhen<br>
+                                2001 Longxiang Blvd, Longgang District<br>
+                                Shenzhen, Guangdong, China</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-phone-alt text-blue-600 mt-1 mr-4"></i>
+                            <div>
+                                <p class="font-medium">Phone</p>
+                                <p class="text-gray-600">+86 XXX XXXX XXXX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-xl font-semibold mb-4">Send a Message</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-gray-700 mb-1">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 mb-1">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div <div>
+                            <label for="message" class="block text-gray-700 mb-1">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Send Message</button>
+                    </form>
+                </div>
             </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 Dr. Rishabh Kumar Pandey. All rights reserved.</p>
         </div>
     </footer>
-
-    <script>
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // Mobile menu toggle functionality
-        const mobileMenuBtn = document.createElement('button');
-        mobileMenuBtn.innerHTML = '☰';
-        mobileMenuBtn.style.cssText = 'display: none; background: none; border: none; font-size: 1.5rem; color: white; cursor: pointer;';
-
-        function setupMobileMenu() {
-            const nav = document.querySelector('nav');
-            const navLinks = document.querySelector('.nav-links');
-            
-            if (window.innerWidth <= 768) {
-                mobileMenuBtn.style.display = 'block';
-                nav.insertBefore(mobileMenuBtn, navLinks);
-                navLinks.style.display = 'none';
-                
-                mobileMenuBtn.addEventListener('click', () => {
-                    if (navLinks.style.display === 'none') {
-                        navLinks.style.display = 'flex';
-                        navLinks.style.flexDirection = 'column';
-                        navLinks.style.position = 'absolute';
-                        navLinks.style.top = '100%';
-                        navLinks.style.left = '0';
-                        navLinks.style.right = '0';
-                        navLinks.style.backgroundColor = 'rgba(58, 134, 255, 0.9)';
-                        navLinks.style.padding = '1rem';
-                        navLinks.style.zIndex = '100';
-                    } else {
-                        navLinks.style.display = 'none';
-                    }
-                });
-            } else {
-                mobileMenuBtn.style.display = 'none';
-                if (navLinks) navLinks.style.display = 'flex';
-            }
-        }
-
-        // Initial setup
-        setupMobileMenu();
-        
-        // Update on window resize
-        window.addEventListener('resize', setupMobileMenu);
-    </script>
 </body>
 </html>
-
