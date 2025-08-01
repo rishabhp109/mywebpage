@@ -36,7 +36,7 @@
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 flex justify-center mb-8 md:mb-0">
                     <div class="rounded-full border-4 border-white overflow-hidden w-48 h-48">
-                        <img src="https://placehold.co/400x400" alt="Portrait of Dr. Rishabh Kumar Pandey, a professional academic researcher with glasses" class="w-full h-full object-cover">
+                        <img src="https://drive.google.com/file/d/1WMO1C20yKXWWYvW9h-UC390eCGSvWA47/view?usp=sharing" alt="Portrait of Dr. Rishabh Kumar Pandey, a professional academic researcher with glasses" class="w-full h-full object-cover">
                     </div>
                 </div>
                 <div class="md:w-2/3 md:pl-12 text-center md:text-left">
@@ -90,7 +90,7 @@
                         Dr. Rishabh Kumar Pandey is a Post Doctoral Researcher at The Chinese University of Hong Kong, Shenzhen (CUHK Shenzhen). His research focuses on [insert specific research areas]. With a strong background in [mention fields], he has contributed significantly to advancing knowledge in [specific domain].
                     </p>
                     <p class="text-gray-700 mb-4">
-                        Prior to joining CUHK Shenzhen, Dr. Pandey completed his PhD from [University Name] under the supervision of [Advisor Name]. His doctoral research explored [brief description of PhD work].
+                        Prior to joining CUHK Shenzhen, Dr. Pandey completed his PhD from the Department of Chemistry, Indian Institute of Technology Patna, under the supervision of Prof. Tammineni Rajagopala Rao. His doctoral research explored the vibronic coupling in the closely spaced electronic states of Aluminium Clusters.
                     </p>
                     <p class="text-gray-700">
                         Dr. Pandey has published numerous articles in top-tier journals and conferences including [list notable publications]. His work has been recognized with several awards including [mention awards].
@@ -207,8 +207,8 @@
                                 <div>
                                     <h3 class="text-xl font-semibold">Post Doctoral Researcher</h3>
                                     <p class="text-gray-600">The Chinese University of Hong Kong, Shenzhen</p>
-                                    <p class="text-gray-500">202X - Present</p>
-                                    <p class="text-gray-700 mt-2">Working on [specific research project] under the supervision of [Prof. Name].</p>
+                                    <p class="text-gray-500">2025 - Present</p>
+                                    <p class="text-gray-700 mt-2">Working on light-matter coupling under the supervision of Prof. Bingyu Cui.</p>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +224,7 @@
                                     <h3 class="text-xl font-semibold">Ph.D. in Theoretical Chemistry</h3>
                                     <p class="text-gray-600">Indian Institute of Technology Patna</p>
                                     <p class="text-gray-500">2019 - 2024</p>
-                                    <p class="text-gray-700 mt-2">Thesis: "Title of PhD Dissertation"</p>
+                                    <p class="text-gray-700 mt-2">Thesis: "Vibronic Coupling Theory and Its Successful Applications in the Photoelectron Spectra of Aluminium Clusters"</p>
                                 </div>
                             </div>
                         </div>
@@ -324,5 +324,3 @@
             <p>&copy; 2023 Dr. Rishabh Kumar Pandey. All rights reserved.</p>
         </div>
     </footer>
-</body>
-</html>
