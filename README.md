@@ -158,7 +158,7 @@
                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-file-pdf mr-1"></i> PDF
                         </a>
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                        <a href="https://doi.org/10.1039/D3CP00836C" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-link mr-1"></i> DOI
                         </a>
                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
@@ -170,7 +170,7 @@
                 <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
                     <h3 class="text-xl font-semibold text-blue-700 mb-1">Self-assembled neutral and ionic [2 + 2] metallomacrocycles using a new flexible ditopic Pt (II)–based organometallic tecton bearing a pyrimidine motif: Facile syntheses and enhanced anticancer potency </h3>
                     <p class="text-gray-600 mb-2">Arnab Chakraborty, Shambhavi Pandey, Rishabh Kumar Pandey, Khushwant Singh, Saurabh Kumar, Santosh Kumar, T. Rajagopala Rao and Neeladri Das</p>
-                    <p class="text-gray-700 mb-3">Applied Organnometallic Chemistry, 37, e6917, 2023</p>
+                    <p class="text-gray-700 mb-3">Appl. Organnomet. Chem, 37, e6917, 2023</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-file-pdf mr-1"></i> PDF
