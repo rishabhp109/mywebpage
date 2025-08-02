@@ -36,7 +36,7 @@
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 flex justify-center mb-8 md:mb-0">
                     <div class="rounded-full border-4 border-white overflow-hidden w-48 h-48">
-                        <img src="https://drive.google.com/file/d/1WMO1C20yKXWWYvW9h-UC390eCGSvWA47/view?usp=sharing" alt="Portrait of Dr. Rishabh Kumar Pandey, a professional academic researcher with glasses" class="w-full h-full object-cover">
+                        <img src="https://drive.google.com/file/d/1WMO1C20yKXWWYvW9h-UC390eCGSvWA47/view?usp=sharing" alt="Portrait of Dr. Rishabh Kumar Pandey, a professional academic researcher with glasses" class="w-4 h-4 object-cover">
                     </div>
                 </div>
                 <div class="md:w-2/3 md:pl-12 text-center md:text-left">
@@ -47,13 +47,13 @@
                         <a href="#" class="text-white hover:text-blue-200">
                             <i class="fas fa-envelope fa-lg"></i>
                         </a>
-                        <a href="#" class="text-white hover:text-blue-200">
+                        <a href="https://www.linkedin.com/in/rishabh-kumar-pandey-7000b4a4/" class="text-white hover:text-blue-200">
                             <i class="fab fa-linkedin fa-lg"></i>
                         </a>
-                        <a href="#" class="text-white hover:text-blue-200">
-                            <i class="fab fa-google-scholar fa-lg"></i>
+                        <a href="https://scholar.google.com/citations?user=RRKER5cAAAAJ&hl=en" class="text-white hover:text-blue-200">
+                            <i class="fab fa-googlescholar fa-lg"></i>
                         </a>
-                        <a href="#" class="text-white hover:text-blue-200">
+                        <a href="https://www.researchgate.net/profile/Rishabh-Pandey-27?ev=hdr_xprf" class="text-white hover:text-blue-200">
                             <i class="fab fa-researchgate fa-lg"></i>
                         </a>
                         <a href="#" class="text-white hover:text-blue-200">
@@ -136,7 +136,7 @@
                 <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
                     <h3 class="text-xl font-semibold text-blue-700 mb-1">Resolving the Experimental  Photoelectron Spectra of CAl<sub>3</sub>Si<sup>-</sup></h3>
                     <p class="text-gray-600 mb-2">Rishabh Kumar Pandey, Korutla Srikanth, Shyam Sharan Tripathi and T. Rajagopala Rao</p>
-                    <p class="text-gray-700 mb-3">, J. Phys. Chem. A., 128(2), 355, 2024</p>
+                    <p class="text-gray-700 mb-3">J. Phys. Chem. A., 128(2), 355, 2024</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-file-pdf mr-1"></i> PDF
