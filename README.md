@@ -151,7 +151,7 @@
                 </div>
                 
                 <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
-                    <h3 class="text-xl font-semibold text-blue-700 mb-1">A Theoretical Study of Vibronic Coupling in the Photoelectron Spectra of Al<sup>6</sup>N<sub>–</sub></h3>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-1">A Theoretical Study of Vibronic Coupling in the Photoelectron Spectra of Al<sub>6</sub>N<sup>–</sup></h3>
                     <p class="text-gray-600 mb-2"> Rishabh Kumar Pandey, Korutla Srikanth, Anuj Tak, Abhishek Kumar and T. Rajagopala Rao</p>
                     <p class="text-gray-700 mb-3">Phys. Chem. Chem. Phys., 23, 12990, 2023</p>
                     <div class="flex space-x-4">
@@ -175,7 +175,7 @@
                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-file-pdf mr-1"></i> PDF
                         </a>
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                        <a href="https://doi.org/10.1002/aoc.6917" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-link mr-1"></i> DOI
                         </a>
                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
@@ -207,7 +207,7 @@
                                 <div>
                                     <h3 class="text-xl font-semibold">Post Doctoral Researcher</h3>
                                     <p class="text-gray-600">The Chinese University of Hong Kong, Shenzhen</p>
-                                    <p class="text-gray-500">2025 - Present</p>
+                                    <p class="text-gray-500"> July 2025 - Present</p>
                                     <p class="text-gray-700 mt-2">Working on light-matter coupling under the supervision of Prof. Bingyu Cui.</p>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@
                                 <div>
                                     <h3 class="text-xl font-semibold">Domain Expert</h3>
                                     <p class="text-gray-600">Turing Inc.</p>
-                                    <p class="text-gray-500"> Nov 2014 - May 2025</p>
+                                    <p class="text-gray-500"> Nov 2024 - May 2025</p>
                                     <p class="text-gray-700 mt-2">LLM trainer</p>
                                 </div>
                             </div>
@@ -239,7 +239,7 @@
                                 <div>
                                     <h3 class="text-xl font-semibold">Ph.D. in Theoretical Chemistry</h3>
                                     <p class="text-gray-600">Indian Institute of Technology Patna</p>
-                                    <p class="text-gray-500">2019 - 2024</p>
+                                    <p class="text-gray-500">July 2019 - Dec 2024</p>
                                     <p class="text-gray-700 mt-2">Thesis: "Vibronic Coupling Theory and Its Successful Applications in the Photoelectron Spectra of Aluminium Clusters"</p>
                                 </div>
                             </div>
