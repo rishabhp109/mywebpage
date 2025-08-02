@@ -36,7 +36,7 @@
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 flex justify-center mb-8 md:mb-0">
                     <div class="rounded-full border-4 border-white overflow-hidden w-48 h-48">
-                        <img src="https://drive.google.com/file/d/1WMO1C20yKXWWYvW9h-UC390eCGSvWA47/view?usp=sharing" alt="Portrait of Dr. Rishabh Kumar Pandey, a professional academic researcher with glasses" class="w-48 h-48 object-cover">
+                        <img src="https://drive.google.com/file/d/1WMO1C20yKXWWYvW9h-UC390eCGSvWA47/view?usp=sharing" alt="Portrait of Dr. Rishabh Kumar Pandey, a professional academic researcher with glasses" class="w-48 h-48 object-contain">
                     </div>
                 </div>
                 <div class="md:w-2/3 md:pl-12 text-center md:text-left">
@@ -142,7 +142,7 @@
                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-file-pdf mr-1"></i> PDF
                         </a>
-                        <a href="https://doi.org/10.1039/D3CP00836C" class="text-blue-600 hover:text-blue-800 text-sm">
+                        <a href="https://doi.org/10.1016/j.cplett.2024.141451" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-link mr-1"></i> DOI
                         </a>
                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
