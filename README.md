@@ -309,15 +309,15 @@
                             <i class="fas fa-envelope text-blue-600 mt-1 mr-4"></i>
                             <div>
                                 <p class="font-medium">Email</p>
-                                <p class="text-gray-600">rishabh@cuhk.edu.cn</p>
+                                <p class="text-gray-600">rishabhp109@gmail.com,rishabh@cuhk.edu.cn</p>
                             </div>
                         </div>
                         <div class="flex items-start">
                             <i class="fas fa-building text-blue-600 mt-1 mr-4"></i>
                             <div>
                                 <p class="font-medium">Address</p>
-                                <p class="text-gray-600">School of Science and Engineering<br>
-                                The Chinese University of Hong Kong, Shenzhen<br>
+                                <p class="text-gray-600">School of Science and Engineering,<br>
+                                The Chinese University of Hong Kong Shenzhen<br>
                                 2001 Longxiang Blvd, Longgang District<br>
                                 Shenzhen, Guangdong, China</p>
                             </div>
