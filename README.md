@@ -130,7 +130,7 @@
 
         <!-- Publications Section -->
         <section id="publications" class="mb-16">
-            <h2 class="text-3xl font-bold text-center mb-6">Selected Publications</h2>
+            <h2 class="text-3xl font-bold text-center mb-6">Publications</h2>
             <div class="section-divider"></div>
             <div class="space-y-6">
                 <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
@@ -185,8 +185,8 @@
                 </div>
             </div>
             <div class="text-center mt-8">
-                <a href="#" class="inline-block px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
-                    View All Publications
+                <a href="https://scholar.google.com/citations?user=RRKER5cAAAAJ&hl=en" class="inline-block px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+                    Latest information on Publications
                 </a>
             </div>
         </section>
