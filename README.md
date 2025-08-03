@@ -51,7 +51,7 @@
                             <i class="fab fa-linkedin fa-lg"></i>
                         </a>
                         <a href="https://scholar.google.com/citations?user=RRKER5cAAAAJ&hl=en" class="text-white hover:text-blue-200">
-                            <i class="fab fa-google-scholar fa-brands"></i>
+                            <i class="fa-brands fa-google-scholar fa-lg"></i>
                         </a>
                         <a href="https://www.researchgate.net/profile/Rishabh-Pandey-27?ev=hdr_xprf" class="text-white hover:text-blue-200">
                             <i class="fab fa-researchgate fa-lg"></i>
