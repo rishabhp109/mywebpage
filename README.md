@@ -36,7 +36,7 @@
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 flex justify-center mb-8 md:mb-0">
                     <div class="rounded-full border-4 border-white overflow-hidden w-48 h-48">
-                        <img src="https://drive.google.com/file/d/1WMO1C20yKXWWYvW9h-UC390eCGSvWA47/view?usp=sharing" alt="Portrait of Dr. Rishabh Kumar Pandey, a professional academic researcher with glasses" class="w-4 h-4 object-scale-down">
+                        <img src="https://drive.google.com/file/d/1WMO1C20yKXWWYvW9h-UC390eCGSvWA47/view?usp=sharing" alt="#" class="w-96 h-96 object-scale-down">
                     </div>
                 </div>
                 <div class="md:w-2/3 md:pl-12 text-center md:text-left">
