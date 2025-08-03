@@ -40,9 +40,9 @@
                     </div>
                 </div>
                 <div class="md:w-2/3 md:pl-12 text-center md:text-left">
-                    <h1 class="text-4xl font-bold mb-2">Dr. Rishabh Kumar Pandey</h1>
+                    <h1 class="text-4xl font-bold mb-2">Rishabh Kumar Pandey,PhD</h1>
                     <h2 class="text-2xl font-semibold mb-4">Post Doctoral Researcher</h2>
-                    <p class="text-lg mb-4">School of Science and Engineering, CUHK Shenzhen</p>
+                    <p class="text-lg mb-4">School of Science and Engineering, The Chinese University of Hong Kong Shenzhen</p>
                     <div class="flex justify-center md:justify-start space-x-4">
                         <a href="#" class="text-white hover:text-blue-200">
                             <i class="fas fa-envelope fa-lg"></i>
@@ -51,7 +51,7 @@
                             <i class="fab fa-linkedin fa-lg"></i>
                         </a>
                         <a href="https://scholar.google.com/citations?user=RRKER5cAAAAJ&hl=en" class="text-white hover:text-blue-200">
-                            <i class="fab fa-googlescholar fa-lg"></i>
+                            <i class="fab fa-google-scholar fa-lg"></i>
                         </a>
                         <a href="https://www.researchgate.net/profile/Rishabh-Pandey-27?ev=hdr_xprf" class="text-white hover:text-blue-200">
                             <i class="fab fa-researchgate fa-lg"></i>
