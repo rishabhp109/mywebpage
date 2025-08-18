@@ -143,9 +143,6 @@
                         <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.4c05354" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-link mr-1"></i> DOI
                         </a>
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
-                            <i class="fas fa-book mr-1"></i> Cite
-                        </a>
                     </div>
                 </div>
 
@@ -155,14 +152,8 @@
                     <p class="text-gray-600 mb-2"> Atikur Hassan, Rishabh Kumar Pandey, Arnab Chakraborty, Sk Abdul Wahed, T. Rajagopala Rao and Neeladri Das</p>
                     <p class="text-gray-700 mb-3">Soft Matter, 20(39), 7832, 2024</p>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
-                            <i class="fas fa-file-pdf mr-1"></i> PDF
-                        </a>
                         <a href="https://pubs.rsc.org/en/content/articlehtml/2024/sm/d4sm00679h" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-link mr-1"></i> DOI
-                        </a>
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
-                            <i class="fas fa-book mr-1"></i> Cite
                         </a>
                     </div>
                 </div>
@@ -224,14 +215,8 @@
                     <p class="text-gray-600 mb-2">Arnab Chakraborty, Shambhavi Pandey, Rishabh Kumar Pandey, Khushwant Singh, Saurabh Kumar, Santosh Kumar, T. Rajagopala Rao and Neeladri Das</p>
                     <p class="text-gray-700 mb-3">Appl. Organnomet. Chem, 37, e6917, 2023</p>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
-                            <i class="fas fa-file-pdf mr-1"></i> PDF
-                        </a>
                         <a href="https://doi.org/10.1002/aoc.6917" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-link mr-1"></i> DOI
-                        </a>
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
-                            <i class="fas fa-book mr-1"></i> Cite
                         </a>
                     </div>
                 </div>
