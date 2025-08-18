@@ -36,7 +36,7 @@
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 flex justify-center mb-8 md:mb-0">
                     <div class="rounded-full border-4 border-white overflow-hidden w-48 h-48">
-                        <img src="https://drive.google.com/file/d/1WMO1C20yKXWWYvW9h-UC390eCGSvWA47/view?usp=sharing" alt="#" class="w-96 h-96 object-scale-down">
+                        <img src="https://drive.google.com/file/d/1V2-PmzpJPvicdR57hUvWlgW4U9FlKhjR/view?usp=sharing" alt="#" class="w-96 h-96 object-scale-down">
                     </div>
                 </div>
                 <div class="md:w-2/3 md:pl-12 text-center md:text-left">
@@ -155,7 +155,7 @@
 <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
                     <h3 class="text-xl font-semibold text-blue-700 mb-1">Quantum dynamical study on <sup>15</sup>N + <sup>14</sup>N<sup>14</sup>N isotope exchange reactions at high energies</h3>
                     <p class="text-gray-600 mb-2"> Anuj Tak, Korutla Srikanth, Rishabh Kumar Pandey, Gregoire Guillon, Pascal Honvault and T. Rajagopala Rao</p>
-                    <p class="text-gray-700 mb-3">Chemical Physics Letters, 14145, 2024</p>
+                    <p class="text-gray-700 mb-3">Chemical Physics Letters, 141451, 2024</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-file-pdf mr-1"></i> PDF
