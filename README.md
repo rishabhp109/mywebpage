@@ -36,7 +36,7 @@
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 flex justify-center mb-8 md:mb-0">
                     <div class="rounded-full border-4 border-white overflow-hidden w-48 h-48">
-                        <img src="https://drive.google.com/file/d/1V2-PmzpJPvicdR57hUvWlgW4U9FlKhjR/view?usp=sharing" alt="#" class="w-96 h-96 object-scale-down">
+                        <img src="https://drive.google.com/file/d/1V2-PmzpJPvicdR57hUvWlgW4U9FlKhjR/view?usp=sharing" alt="#" class="w-12 h-12 object-scale-down">
                     </div>
                 </div>
                 <div class="md:w-2/3 md:pl-12 text-center md:text-left">
@@ -135,7 +135,7 @@
             <div class="space-y-6">
                
 <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
-                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Green synthesis of an ionic porous organic polymer for efficient capture of environmentally toxic MnO<sub>4</sub><sup>−</sup> and I<sub>3<\sub><sup>−</sup> from water</h3>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Green synthesis of an ionic porous organic polymer for efficient capture of environmentally toxic MnO<sub>4</sub><sup>−</sup> and I<sub>3</sub>sub><sup>−</sup> from water</h3>
                     <p class="text-gray-600 mb-2"> Atikur Hassan, Rishabh Kumar Pandey, Arnab Chakraborty, Sk Abdul Wahed, T. Rajagopala Rao and Neeladri Das</p>
                     <p class="text-gray-700 mb-3">Soft Matter, 20(39), 7832, 2024</p>
                     <div class="flex space-x-4">
