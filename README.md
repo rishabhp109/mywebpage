@@ -133,9 +133,28 @@
             <h2 class="text-3xl font-bold text-center mb-6">Publications</h2>
             <div class="section-divider"></div>
             <div class="space-y-6">
+
+
+<div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-1"> Vibronic Interactions in the Photoelectron Spectra of CAl<sub>3</sub>Ge<sup>−</sup> : A Theoretical Study </h3>
+                    <p class="text-gray-600 mb-2"> Rishabh Kumar Pandey, Arun Kumar Kanakati, Shyam Sharan Tripathi and T. Rajagopala Rao and Neeladri Das</p>
+                    <p class="text-gray-700 mb-3">J. Phys. Chem. A, 129(1), 14, 2025</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-file-pdf mr-1"></i> PDF
+                        </a>
+                        <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.4c05354" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-link mr-1"></i> DOI
+                        </a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-book mr-1"></i> Cite
+                        </a>
+                    </div>
+                </div>
+
                
 <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
-                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Green synthesis of an ionic porous organic polymer for efficient capture of environmentally toxic MnO<sub>4</sub><sup>−</sup> and I<sub>3</sub>sub><sup>−</sup> from water</h3>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Green synthesis of an ionic porous organic polymer for efficient capture of environmentally toxic MnO<sub>4</sub><sup>−</sup> and I<sub>3</sub><sup>−</sup> from water</h3>
                     <p class="text-gray-600 mb-2"> Atikur Hassan, Rishabh Kumar Pandey, Arnab Chakraborty, Sk Abdul Wahed, T. Rajagopala Rao and Neeladri Das</p>
                     <p class="text-gray-700 mb-3">Soft Matter, 20(39), 7832, 2024</p>
                     <div class="flex space-x-4">
