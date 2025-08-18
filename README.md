@@ -135,9 +135,9 @@
             <div class="space-y-6">
                
 <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
-                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Quantum dynamical study on <sup>15</sup>N + <sup>14</sup>N<sup>14</sup>N isotope exchange reactions at high energies  141451</h3>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Quantum dynamical study on <sup>15</sup>N + <sup>14</sup>N<sup>14</sup>N isotope exchange reactions at high energies</h3>
                     <p class="text-gray-600 mb-2"> Anuj Tak, Korutla Srikanth, Rishabh Kumar Pandey, Gregoire Guillon, Pascal Honvault and T. Rajagopala Rao</p>
-                    <p class="text-gray-700 mb-3">Chemical Physics Letters, 141451, 2024</p>
+                    <p class="text-gray-700 mb-3">Chemical Physics Letters, 14145, 2024</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-file-pdf mr-1"></i> PDF
