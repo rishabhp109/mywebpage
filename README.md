@@ -140,9 +140,6 @@
                     <p class="text-gray-600 mb-2"> Rishabh Kumar Pandey, Arun Kumar Kanakati, Shyam Sharan Tripathi and T. Rajagopala Rao and Neeladri Das</p>
                     <p class="text-gray-700 mb-3">J. Phys. Chem. A, 129(1), 14, 2025</p>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
-                            <i class="fas fa-file-pdf mr-1"></i> PDF
-                        </a>
                         <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.4c05354" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-link mr-1"></i> DOI
                         </a>
