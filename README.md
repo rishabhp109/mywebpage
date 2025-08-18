@@ -36,7 +36,7 @@
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 flex justify-center mb-8 md:mb-0">
                     <div class="rounded-full border-4 border-white overflow-hidden w-48 h-48">
-                        <img src="https://drive.google.com/file/d/1V2-PmzpJPvicdR57hUvWlgW4U9FlKhjR/view?usp=sharing" alt="#" class="w-20 h-20 object-scale-down">
+                        <img src="https://drive.google.com/file/d/1V2-PmzpJPvicdR57hUvWlgW4U9FlKhjR/view?usp=sharing" alt="#" class="w-48 h-48 object-scale-down">
                     </div>
                 </div>
                 <div class="md:w-2/3 md:pl-12 text-center md:text-left">
