@@ -118,7 +118,6 @@
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
                     <div class="text-blue-600 mb-4">
-                        <i class="fas fa-microscope fa-3x"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Light-matter Coupling</h3>
                     <p class="text-gray-600">Detailed description of this research area and future directions.</p>
@@ -162,14 +161,8 @@
                     <p class="text-gray-600 mb-2"> Anuj Tak, Korutla Srikanth, Rishabh Kumar Pandey, Gregoire Guillon, Pascal Honvault and T. Rajagopala Rao</p>
                     <p class="text-gray-700 mb-3">Chemical Physics Letters, 141451, 2024</p>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
-                            <i class="fas fa-file-pdf mr-1"></i> PDF
-                        </a>
                         <a href="https://doi.org/10.1016/j.cplett.2024.141451" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-link mr-1"></i> DOI
-                        </a>
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
-                            <i class="fas fa-book mr-1"></i> Cite
                         </a>
                     </div>
                 </div>
@@ -179,14 +172,8 @@
                     <p class="text-gray-600 mb-2">Rishabh Kumar Pandey, Korutla Srikanth, Shyam Sharan Tripathi and T. Rajagopala Rao</p>
                     <p class="text-gray-700 mb-3">J. Phys. Chem. A., 128(2), 355, 2024</p>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
-                            <i class="fas fa-file-pdf mr-1"></i> PDF
-                        </a>
                         <a href="https://doi.org/10.1021/acs.jpca.3c06295" class="text-blue-600 hover:text-blue-800 text-sm">
                             <i class="fas fa-link mr-1"></i> DOI
-                        </a>
-                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
-                            <i class="fas fa-book mr-1"></i> Cite
                         </a>
                     </div>
                 </div>
