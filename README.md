@@ -135,6 +135,24 @@
             <div class="space-y-6">
                
 <div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-1">Green synthesis of an ionic porous organic polymer for efficient capture of environmentally toxic MnO<sup>4</sup><sub>−</sub> and I<sup>3<\sup><sub>−</sub> from water on <sup>15</sup>N + <sup>14</sup>N<sup>14</sup>N isotope exchange reactions at high energies</h3>
+                    <p class="text-gray-600 mb-2"> Atikur Hassan, Rishabh Kumar Pandey, Arnab Chakraborty, Sk Abdul Wahed, T. Rajagopala Rao and Neeladri Das</p>
+                    <p class="text-gray-700 mb-3">Soft Matter, 20(39), 7832, 2024</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-file-pdf mr-1"></i> PDF
+                        </a>
+                        <a href="https://pubs.rsc.org/en/content/articlehtml/2024/sm/d4sm00679h" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-link mr-1"></i> DOI
+                        </a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">
+                            <i class="fas fa-book mr-1"></i> Cite
+                        </a>
+                    </div>
+                </div>
+
+
+<div class="bg-white rounded-lg shadow-md p-6 publication-card transition-transform">
                     <h3 class="text-xl font-semibold text-blue-700 mb-1">Quantum dynamical study on <sup>15</sup>N + <sup>14</sup>N<sup>14</sup>N isotope exchange reactions at high energies</h3>
                     <p class="text-gray-600 mb-2"> Anuj Tak, Korutla Srikanth, Rishabh Kumar Pandey, Gregoire Guillon, Pascal Honvault and T. Rajagopala Rao</p>
                     <p class="text-gray-700 mb-3">Chemical Physics Letters, 14145, 2024</p>
