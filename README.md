@@ -87,13 +87,13 @@
             <div class="max-w-4xl mx-auto">
                 <div class="bg-white rounded-lg shadow-md p-8">
                     <p class="text-gray-700 mb-4">
-                        Dr. Rishabh Kumar Pandey is a Post Doctoral Researcher at The Chinese University of Hong Kong, Shenzhen (CUHK Shenzhen). His research focuses on [insert specific research areas]. With a strong background in [mention fields], he has contributed significantly to advancing knowledge in [specific domain].
+                        Dr. Rishabh Kumar Pandey is a Post-Doctoral Researcher at The Chinese University of Hong Kong, Shenzhen (CUHK Shenzhen). His research focuses on [insert specific research areas]. With a strong background in [mention fields], he has contributed significantly to advancing knowledge in [specific domain].
                     </p>
                     <p class="text-gray-700 mb-4">
                         Prior to joining CUHK Shenzhen, Dr. Pandey completed his PhD from the Department of Chemistry, Indian Institute of Technology Patna, under the supervision of Prof. Tammineni Rajagopala Rao. His doctoral research explored the vibronic coupling in the closely spaced electronic states of Aluminium Clusters.
                     </p>
                     <p class="text-gray-700">
-                        Dr. Pandey has published numerous articles in top-tier journals and conferences including [list notable publications]. His work has been recognized with several awards including [mention awards].
+                        Dr. Pandey has published numerous articles in top-tier journals and conferences, including [list notable publications]. His work has been recognised with several awards, including [mention awards].
                     </p>
                 </div>
             </div>
@@ -106,14 +106,12 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
                     <div class="text-blue-600 mb-4">
-                        <i class="fas fa-atom fa-3x"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Vibronic Coupling Theory</h3>
                     <p class="text-gray-600">Detailed description of this research area and its significance.</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
                     <div class="text-blue-600 mb-4">
-                        <i class="fas fa-chart-line fa-3x"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Electronic Structure Calculations</h3>
                     <p class="text-gray-600">Detailed description of this research area and its applications.</p>
