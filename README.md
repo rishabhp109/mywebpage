@@ -1,4 +1,3 @@
-#<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,7 +6,7 @@
   <title>Dr Rishabh Kumar Pandey| Postdoctoral Researcher</title>
 
   <meta name="description" content="Personal academic webpage of Your Name, Postdoctoral Researcher." />
-  <meta name="author" content="Your Name" />
+  <meta name="author" content="Rishabh Kumar Pandey, Dr" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -39,7 +38,7 @@
 
     <section id="about" class="section about-grid">
       <div class="profile-image-wrapper">
-        <img src="images/profile.jpg" alt="Photo of Your Name" class="profile-image" />
+        <img src="https://drive.google.com/file/d/1HEd-O3APi_jxZgxkFxzlcMgHewypuG_C/view?usp=sharing" alt="Photo of Your Name" class="profile-image" />
       </div>
 
       <div>
