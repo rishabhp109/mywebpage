@@ -16,7 +16,7 @@
   <header class="site-header">
     <div class="container header-content">
       <div>
-        <h1>Your Name</h1>
+        <h1>Dr Rishabh Kumar Pandey</h1>
         <p class="subtitle">Postdoctoral Researcher</p>
         <p class="affiliation">
           School of Science and Engineering<br />
@@ -58,7 +58,7 @@
         </p>
 
         <p>
-          <a class="button" href="CV.pdf" target="_blank">Download CV</a>
+          <a class="button" href="https://drive.google.com/file/d/1avZHYtGt9V4uIRKFMCAqvVOlZ5Qhq_ym/view?usp=sharing" target="_blank">Download CV</a>
           <a class="button secondary" href="https://scholar.google.com/citations?user=RRKER5cAAAAJ&hl=en" target="_blank">Google Scholar</a>
         </p>
       </div>
