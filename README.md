@@ -50,16 +50,16 @@
         </p>
 
         <p>
-          I received my Ph.D. in <strong>Your Discipline</strong> from
-          <strong>Your Ph.D. University</strong>, where I worked with
-          <strong>Your Advisor's Name</strong>. My broader research interests include
+          I received my Ph.D. in <strong>Theoretical Chemistry</strong> from
+          <strong>Indian Institute of Technology Patna, India</strong>, where I worked with
+          <strong>Prof. Tamminneni Rajagopala Rao</strong>. My broader research interests include
           interdisciplinary approaches to understanding complex scientific, technical,
           or societal problems.
         </p>
 
         <p>
           <a class="button" href="CV.pdf" target="_blank">Download CV</a>
-          <a class="button secondary" href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+          <a class="button secondary" href="https://scholar.google.com/citations?user=RRKER5cAAAAJ&hl=en" target="_blank">Google Scholar</a>
         </p>
       </div>
     </section>
