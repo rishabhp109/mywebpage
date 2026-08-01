@@ -44,9 +44,9 @@
       <div>
         <h2>About</h2>
         <p>
-          I am a postdoctoral researcher at <strong>Your University or Institute</strong>,
-          working in the area of <strong>Your Research Field</strong>. My research focuses on
-          <strong>topic one</strong>, <strong>topic two</strong>, and <strong>topic three</strong>.
+          I am a postdoctoral researcher at <strong>The Chinese University of Hong Kong Shenzhen</strong>,
+          working in the area of <strong>Theoretical Chemistry</strong>. My research focuses on
+          <strong>Non-adiabatic dynamics</strong>, <strong>Vibronic Coupling</strong>, and <strong>Light-Matter Interactions</strong>.
         </p>
 
         <p>
