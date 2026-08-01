@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+#<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Your Name | Postdoctoral Researcher</title>
+  <title>Dr Rishabh Kumar Pandey| Postdoctoral Researcher</title>
 
   <meta name="description" content="Personal academic webpage of Your Name, Postdoctoral Researcher." />
   <meta name="author" content="Your Name" />
@@ -20,8 +20,8 @@
         <h1>Your Name</h1>
         <p class="subtitle">Postdoctoral Researcher</p>
         <p class="affiliation">
-          Department of Your Department<br />
-          Your University or Institute
+          School of Science and Engineering<br />
+          The Chinese University of Hong Kong Shenzhen, China
         </p>
       </div>
 
