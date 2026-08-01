@@ -1,13 +1,12 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Your Name | Postdoctoral Researcher</title>
+  <title>Dr Rishabh Kumar Pandey| Postdoctoral Researcher</title>
 
   <meta name="description" content="Personal academic webpage of Your Name, Postdoctoral Researcher." />
-  <meta name="author" content="Your Name" />
+  <meta name="author" content="Rishabh Kumar Pandey, Dr" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -17,11 +16,11 @@
   <header class="site-header">
     <div class="container header-content">
       <div>
-        <h1>Your Name</h1>
+        <h1>Dr Rishabh Kumar Pandey</h1>
         <p class="subtitle">Postdoctoral Researcher</p>
         <p class="affiliation">
-          Department of Your Department<br />
-          Your University or Institute
+          School of Science and Engineering<br />
+          The Chinese University of Hong Kong Shenzhen, China
         </p>
       </div>
 
@@ -39,28 +38,28 @@
 
     <section id="about" class="section about-grid">
       <div class="profile-image-wrapper">
-        <img src="images/profile.jpg" alt="Photo of Your Name" class="profile-image" />
+        <img src="https://drive.google.com/file/d/1HEd-O3APi_jxZgxkFxzlcMgHewypuG_C/view?usp=sharing" alt="Photo of Your Name" class="profile-image" />
       </div>
 
       <div>
         <h2>About</h2>
         <p>
-          I am a postdoctoral researcher at <strong>Your University or Institute</strong>,
-          working in the area of <strong>Your Research Field</strong>. My research focuses on
-          <strong>topic one</strong>, <strong>topic two</strong>, and <strong>topic three</strong>.
+          I am a postdoctoral researcher at <strong>The Chinese University of Hong Kong Shenzhen</strong>,
+          working in the area of <strong>Theoretical Chemistry</strong>. My research focuses on
+          <strong>Non-adiabatic dynamics</strong>, <strong>Vibronic Coupling</strong>, and <strong>Light-Matter Interactions</strong>.
         </p>
 
         <p>
-          I received my Ph.D. in <strong>Your Discipline</strong> from
-          <strong>Your Ph.D. University</strong>, where I worked with
-          <strong>Your Advisor's Name</strong>. My broader research interests include
+          I received my Ph.D. in <strong>Theoretical Chemistry</strong> from
+          <strong>Indian Institute of Technology Patna, India</strong>, where I worked with
+          <strong>Prof. Tamminneni Rajagopala Rao</strong>. My broader research interests include
           interdisciplinary approaches to understanding complex scientific, technical,
           or societal problems.
         </p>
 
         <p>
-          <a class="button" href="CV.pdf" target="_blank">Download CV</a>
-          <a class="button secondary" href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+          <a class="button" href="https://drive.google.com/file/d/1avZHYtGt9V4uIRKFMCAqvVOlZ5Qhq_ym/view?usp=sharing" target="_blank">Download CV</a>
+          <a class="button secondary" href="https://scholar.google.com/citations?user=RRKER5cAAAAJ&hl=en" target="_blank">Google Scholar</a>
         </p>
       </div>
     </section>
